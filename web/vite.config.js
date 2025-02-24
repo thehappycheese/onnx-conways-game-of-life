@@ -4,6 +4,7 @@ import solid from 'vite-plugin-solid'
 
 
 export default defineConfig({
+    base: './',
     plugins: [deno(), solid()],
     server: {
         mimeTypes: {
