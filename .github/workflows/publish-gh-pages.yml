@@ -32,7 +32,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install onnx numpy
       - name: Generate ONNX model
-        run: python create_conway_onnx.py
+        run: python 01_create_conways_game_of_life_onnx.py
       - name: Setup Node
         uses: denoland/setup-deno@v2
         with:
