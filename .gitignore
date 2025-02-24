@@ -1,0 +1,4 @@
+.venv
+*.onnx
+output/
+deno.lock
